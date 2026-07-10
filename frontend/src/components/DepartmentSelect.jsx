@@ -2,7 +2,7 @@ import { departments } from '../constants/noticeOptions'
 
 function DepartmentSelect({
   id = 'department',
-  label = '학과를 선택해주세요.',
+  label = '학과 선택',
   value,
   onChange,
 }) {

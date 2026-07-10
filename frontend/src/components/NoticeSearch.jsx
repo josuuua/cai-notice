@@ -5,7 +5,7 @@ function NoticeSearch({ value, onChange }) {
       <input
         id="notice-search"
         type="search"
-        placeholder="공지 검색하기..."
+        placeholder="공지 제목, 본문, 출처 검색"
         value={value}
         onChange={(event) => onChange(event.target.value)}
       />

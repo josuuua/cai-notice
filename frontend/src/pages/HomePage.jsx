@@ -9,9 +9,11 @@ function HomePage({ selectedDepartment, onDepartmentChange, onStart }) {
   return (
     <main className="app home-page">
       <section className="home-content" aria-labelledby="home-title">
-        <p className="eyebrow">Dongguk Notice Board</p>
+        <p className="eyebrow">CAI Notice</p>
         <h1 id="home-title">CAI Notice</h1>
-        <p className="home-copy">동국대학교 공지를 더 쉽게 확인하세요.</p>
+        <p className="home-copy">
+          동국대학교 공지를 저장하고 마감일까지 관리하세요.
+        </p>
 
         <form className="home-form" onSubmit={handleSubmit}>
           <DepartmentSelect

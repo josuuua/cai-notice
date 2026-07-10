@@ -2,6 +2,7 @@ export const departments = [
   '컴퓨터공학과',
   '경영학과',
   '전자전기공학부',
+  '전체',
 ]
 
 export const categories = ['전체', '학사', '장학', '학과', '일반', '비교과']
